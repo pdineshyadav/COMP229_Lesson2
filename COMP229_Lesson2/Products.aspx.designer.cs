@@ -11,7 +11,7 @@ namespace COMP229_Lesson2
 {
 
 
-    public partial class Default
+    public partial class Products
     {
     }
 }
