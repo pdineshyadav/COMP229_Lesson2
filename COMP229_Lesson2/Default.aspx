@@ -1,10 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="COMP229_Lesson2.Default" %>
+﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="COMP229_Lesson2.Default" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
         <div class="row">
-            <div class="col-md-offset-4 col-md-6">
-                <h1>HelloWorld!</h1>
+            <div class="jumbotron">
+                <h1>Hello, world!</h1>
+
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
             </div>
         </div>
     </div>
